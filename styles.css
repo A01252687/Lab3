@@ -1,0 +1,82 @@
+body {
+    background: url("img/fondo.jpg");
+}
+
+#inicio {
+    width: 960px;
+    background-color: #7a86adee;
+    margin: 0 auto;
+    padding: 25px;
+    height: 100%;
+    text-align: center;
+}
+
+#contenido {
+    width: 960px;
+    background-color: #ffffffde;
+    margin: 0 auto;
+    padding: 25px;
+    height: 100%;
+    text-align: center;
+    color:#505f8f;
+    font-family: 'Space Grotesk', sans-serif;
+}
+h2{
+    font-family: 'Courgette', cursive;
+}
+#header h1 {
+    font-family: 'Courgette', cursive;
+}
+
+#ul {
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+}
+
+ol{
+    text-align: left;
+}
+
+#menu li{
+    display: inline;
+    margin: 0 10px;
+    font-size: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#menu a {
+    color:black;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+#menu ul:hover a{
+    color:#575757;
+}
+
+#menu ul:hover a:hover{
+    color:aliceblue;
+    box-shadow:0 2px 0 0 currentColor;
+}
+
+#imagenes {
+    background-color: #ffffffde;
+    margin: 0 auto;
+    padding: 25px;
+    display:flex;
+    width:600px;
+    height:430px;
+}
+#imagenes img{
+    width: 0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity: 0.8px;
+    transition: 0.5s ease;
+}
+#imagenes img:hover{
+    width:300px;
+    opacity:1;
+    filter:contrast(120%);
+}
